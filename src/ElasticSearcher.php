@@ -2,8 +2,8 @@
 	
 	namespace ElasticSearcher;
 	
-	use Elasticsearch\Client;
-	use Elasticsearch\ClientBuilder;
+	use Elasticlegacy\Client;
+	use Elasticlegacy\ClientBuilder;
 	use ElasticSearcher\Managers\IndicesManager;
 	use ElasticSearcher\Managers\DocumentsManager;
 	
@@ -52,7 +52,7 @@
 		}
 		
 		/**
-		 * @param \Elasticsearch\Client $client
+		 * @param \Elasticlegacy\Client $client
 		 */
 		public function setClient(Client $client)
 		{
@@ -60,7 +60,7 @@
 		}
 		
 		/**
-		 * @return \Elasticsearch\Client
+		 * @return \Elasticlegacy\Client
 		 */
 		public function getClient()
 		{

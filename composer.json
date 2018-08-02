@@ -14,7 +14,7 @@
 		}
 	},
 	"require": {
-		"elasticsearch/elasticsearch": "^1.4.1",
+		"campanda/elasticsearch-legacy": "dev-master",
 		"illuminate/support": "^4.2|~5"
 	},
 	"require-dev": {
